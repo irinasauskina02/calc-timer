@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="calculator">
+            <h2>Калькулятор расчёта БЖУ</h2> 
+            <div class="xclear"></div>
+            <h3>Ваш пол</h3>
+            <div id="gender" class="calculator-wrapper">
+                
+                <div class="calculator-item" id="female">Женский </div>
+                <div class="calculator-item" id="male">Мужской</div>
+            </div>
+            <h3>Ваша конституция</h3>
+            <div class="calculator-wrapper">
+                <input type="text" placeholder="Ваш рост" id="height" class="calculator-item">
+                <input type="text" placeholder="Ваш вес" id="width" class="calculator-item">
+                <input type="text" placeholder="Ваш возраст" id="age" class="calculator-item">
+            </div>
+            <h3>Выберите вашу физическая активность</h3>
+            <div class="calculator-wrapper">                
+                <div data-radio="1.2" id="low" class="calculator-item">Низкая активность </div>
+                <div data-radio="1.375" id="small" class="calculator-item">Невысокая активность</div>
+                <div data-radio="1.55" id="medium" class="calculator-item">Умеренная активность</div>
+                <div data-radio="1.725" id="high" class="calculator-item">Высокая активность</div>            
+            </div>
+            <div class="xclear"></div>         
+            <h3>Ваша суточная норма калорий:</h3>
+            <div class="calc__result">
+                <span>КАЛЛ</span>
+            </div>
+            
+        </section>
+        <section class="timer">
+            
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
