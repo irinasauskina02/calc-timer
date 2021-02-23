@@ -30,3 +30,32 @@ h3 {margin: 15px 0;}
 }
 .calculator-item.result {background-color:rgb(146, 206, 255);}
 .error {color: red; font-size: 18px;}
+
+.timer-wrapper {
+    background-color:rgb(255, 226, 226);
+    text-align: center;
+   
+}
+.timer-wrapper h2 {
+    padding: 20px 0;
+}
+.timer {
+    display: flex;
+    justify-content: center;
+
+}
+.timer .timer__block {
+    padding: 30px 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 20px rgb(0 0 0 / 25%);
+    background-color: #fff;
+    margin: 20px 30px;
+    width: 110px;
+    font-size: 16px;  
+    font-family: "Calibri Light", serif;
+}
+.timer .timer__block span {
+    display: block;
+    font-size: 36px;  
+    font-weight: 600;
+}
