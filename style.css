@@ -29,3 +29,4 @@ h3 {margin: 15px 0;}
     background-color:rgb(173, 173, 173);
 }
 .calculator-item.result {background-color:rgb(146, 206, 255);}
+.error {color: red; font-size: 18px;}
